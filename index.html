@@ -42,6 +42,22 @@
       backdrop-filter: blur(5px);
     }
 
+  header img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid white;
+    box-shadow:0 0 20px rgba(255,215,0,0.8);
+    margin-bottom:1rem;
+    transition:transform 0.3s ease,box-shadow 0.3s ease;}
+
+  header img:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 30px rgba(255,215,0,1);
+  }
+  
+
 
 
     header h1 {
@@ -232,7 +248,7 @@
 </head>
 <body>
   <header>
-  
+  <img src="" alt="profile picture">
     <h1>Hi, I'm Saloni 👋<br><h3>National Institute Of Technology Agartala</h3></h1><br>
     <p> Web Developer | DSA Learner |  Leetcode(30+) |  Tech Enthusiast</p>
     
@@ -355,6 +371,7 @@ Solved 30+ DSA problems on LeetCode through daily practice(Basics including arra
 </body>
 
 </html>
+
 
 
 
